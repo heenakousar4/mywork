@@ -7,15 +7,45 @@
     tools:context=".know_your_sign"
     android:orientation="vertical"
     android:gravity="center"
-    android:background="#F5F1D0E1">
+    android:background="@color/tutu">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/button"
-        android:text="SELECT DATE"
-        android:textStyle="bold"/>
-    <TextView
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/wine_berry"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+            app:title="Astrolife"
+            app:titleMarginStart="160dp"
+            app:titleTextColor="@color/tutu"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:paddingTop="220dp"
+            android:text="Select your Date Of Birth"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:paddingBottom="40dp"
+            android:textColor="@color/wine_berry"/>
+
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SELECT DOB"
+            android:backgroundTint="@color/wine_berry"
+            android:layout_gravity="center"
+            android:textStyle="bold" />
+
+        <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/textView"
@@ -23,5 +53,6 @@
         android:layout_marginTop="20dp"
         android:textColor="@color/wine_berry"
         android:text=""/>
+    </LinearLayout>
 
 </LinearLayout>

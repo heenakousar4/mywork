@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_aries"
+            android:icon="@drawable/aries"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_taurus"
+            android:icon="@drawable/taurus"
+            android:title="Taurus" />
+        <item
+            android:id="@+id/nav_gemini"
+            android:icon="@drawable/gemini"
+            android:title="Gemini" />
+        <item
+            android:id="@+id/nav_cancer"
+            android:icon="@drawable/cancer"
+            android:title="Cancer" />
+        <item
+            android:id="@+id/nav_leo"
+            android:icon="@drawable/leo"
+            android:title="Leo" />
+        <item
+            android:id="@+id/nav_virgo"
+            android:icon="@drawable/vigro"
+            android:title="Vigro" />
+        <item
+            android:id="@+id/nav_libra"
+            android:icon="@drawable/libra"
+            android:title="Libra" />
+        <item
+            android:id="@+id/nav_scorpio"
+            android:icon="@drawable/scorpio"
+            android:title="Scorpio" />
+        <item
+            android:id="@+id/nav_sagittarius"
+            android:icon="@drawable/sagittarius"
+            android:title="Sagittarius" />
+        <item
+            android:id="@+id/nav_capricorn"
+            android:icon="@drawable/capricorn"
+            android:title="Capricorn" />
+        <item
+            android:id="@+id/nav_aquarius"
+            android:icon="@drawable/aquarius"
+            android:title="Aquarius" />
+        <item
+            android:id="@+id/nav_pisces"
+            android:icon="@drawable/pisces"
+            android:title="Pisces" />
+
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item android:title="Profile">
+            <menu>
+                <item
+                    android:id="@+id/nav_login"
+                    android:icon="@drawable/ic_baseline_login_24"
+                    android:title="Login" />
+                <item
+                    android:id="@+id/nav_profile"
+                    android:icon="@drawable/ic_baseline_perm_identity_24"
+                    android:title="Profile"/>
+                <item
+                    android:id="@+id/nav_logout"
+                    android:icon="@drawable/logout_icon"
+                    android:title="Profile"/>
+            </menu>
+        </item>
+
+    </group>
+    <item android:title="Communicate">
+        <menu>
+            <item
+            android:id="@+id/nav_share"
+            android:icon="@drawable/ic_baseline_share_24"
+            android:title="Share"/>
+
+            <item
+            android:id="@+id/nav_rate"
+            android:icon="@drawable/ic_baseline_star_rate_24"
+            android:title="Rate Us" />
+
+        </menu>
+
+    </item>
+
+
+</menu>

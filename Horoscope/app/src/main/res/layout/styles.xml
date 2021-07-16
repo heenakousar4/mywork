@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <resources>
+
+        <!-- Base application theme. -->
+        <style android:name="AppTheme" android:parent="android:Theme.Holo.Light">
+            <!-- Customize your theme here. -->
+            <item android:name="android:actionBarStyle">@style/MyActionBar</item>
+        </style>
+        <style android:name="MyActionBar" android:parent="@android:style/Widget.Holo.Light.ActionBar">
+            <item android:name="android:background">#7AA7FF</item>
+            <item android:name="android:titleTextStyle">@style/Theme.MyAppTheme.ActionBar.TitleTextStyle</item>
+        </style>
+        <style android:name="Theme.MyAppTheme.ActionBar.TitleTextStyle" android:parent="android:style/TextAppearance.Holo.Widget.ActionBar.Title">
+            <item android:name="android:textColor">#FFFFFF</item>
+        </style>
+
+    </resources>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
